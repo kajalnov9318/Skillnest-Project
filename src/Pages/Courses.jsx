@@ -7,14 +7,14 @@ const Courses = () => {
   const userId = localStorage.getItem("userId");
 
   useEffect(() => {
-    fetch("https://skillnest-backend-scy6.onrender.com/api/courses")
+    fetch("https://skillnest-backend-s8vx.onrender.com/api/courses")
       .then((res) => res.json())
       .then((data) => setCourses(data));
   }, []);
 
   const enroll = async (courseId) => {
     await fetch(
-      "https://skillnest-backend-scy6.onrender.com/api/users/enroll",
+      "https://skillnest-backend-s8vx.onrender.com/api/users/enroll",
       {
         method: "POST",
         headers: {

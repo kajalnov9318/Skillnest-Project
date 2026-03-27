@@ -4,7 +4,7 @@ const Dashboard = () => {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
-    fetch("https://skillnest-backend-scy6.onrender.com/api/courses")
+    fetch("https://skillnest-backend-s8vx.onrender.com/api/courses")
       .then((res) => res.json())
       .then((data) => setCourses(data));
   }, []);

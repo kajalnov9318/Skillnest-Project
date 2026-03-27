@@ -9,7 +9,7 @@ const Admin = () => {
 
   // GET COURSES
   const loadCourses = () => {
-    fetch("https://skillnest-backend-scy6.onrender.com/api/courses")
+    fetch("https://skillnest-backend-s8vx.onrender.com/api/courses")
       .then((res) => res.json())
       .then((data) => setCourses(data));
   };
@@ -20,7 +20,7 @@ const Admin = () => {
 
   // ADD COURSE
   const addCourse = async () => {
-    await fetch("https://skillnest-backend-scy6.onrender.com/api/courses/add", {
+    await fetch("https://skillnest-backend-s8vx.onrender.com/api/courses/add", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -42,7 +42,7 @@ const Admin = () => {
   // DELETE
   const deleteCourse = async (id) => {
     await fetch(
-      `https://skillnest-backend-scy6.onrender.com/api/courses/${id}`,
+      `https://skillnest-backend-s8vx.onrender.com/api/courses/${id}`,
       {
         method: "DELETE",
       },

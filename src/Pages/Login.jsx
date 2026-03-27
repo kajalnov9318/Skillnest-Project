@@ -9,16 +9,19 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("http://localhost:5000/api/users/login", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
+    const res = await fetch(
+      "https://skillnest-backend-s8vx.onrender.com/api/users/login",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email,
+          password,
+        }),
       },
-      body: JSON.stringify({
-        email,
-        password,
-      }),
-    });
+    );
 
     const data = await res.json();
     // console.log(data);
