@@ -1,15 +1,15 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Landing from "../pages/Landing";
-import Login from "../pages/Login";
-import Register from "../pages/Register";
-import Courses from "../pages/Courses";
-import CourseDetail from "../pages/CourseDetail";
-import Dashboard from "../pages/Dashboard";
-import Admin from "../pages/Admin";
-import NotFound from "../pages/NotFound";
+import Landing from "../Pages/Landing";
+import Login from "../Pages/Login";
+import Register from "../Pages/Register";
+import Courses from "../Pages/Courses";
+import CourseDetail from "../Pages/CourseDetail";
+import Dashboard from "../Pages/Dashboard";
+import Admin from "../Pages/Admin";
+import NotFound from "../Pages/NotFound";
 
-import MainLayout from "../layout/MainLayout";
+import MainLayout from "../Layout/MainLayout";
 
 const AppRouter = () => {
   return (
