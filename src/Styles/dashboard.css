@@ -1,0 +1,19 @@
+.dashboard {
+  padding: 30px;
+  text-align: center;
+}
+
+.dash-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.dash-card {
+  padding: 15px;
+  background: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  width: 150px;
+}

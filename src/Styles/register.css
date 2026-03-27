@@ -1,0 +1,35 @@
+.register-container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f4f6;
+}
+
+.register-box {
+  background: white;
+  padding: 30px;
+  width: 320px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.register-box h2 {
+  margin-bottom: 20px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 10px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

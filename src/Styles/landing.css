@@ -1,0 +1,64 @@
+.landing {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+
+/* HERO SECTION */
+
+.hero {
+  
+  
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+
+
+  color: white;
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+
+/* BUTTONS */
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 22px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #1d4ed8;
+  transform: scale(1.05);
+}
+
+.btn.outline {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.btn.outline:hover {
+  background: white;
+  color: #2563eb;
+}

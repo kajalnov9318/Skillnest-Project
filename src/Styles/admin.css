@@ -1,0 +1,31 @@
+.admin {
+  padding: 30px;
+  text-align: center;
+}
+
+.add {
+  margin: 20px;
+}
+
+.add input {
+  padding: 8px;
+}
+
+.add button {
+  margin-left: 10px;
+  padding: 8px 12px;
+}
+
+.admin-list {
+  margin-top: 20px;
+}
+
+.admin-card {
+  background: white;
+  margin: 10px auto;
+  width: 250px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}

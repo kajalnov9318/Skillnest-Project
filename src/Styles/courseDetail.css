@@ -1,0 +1,12 @@
+.detail {
+  text-align: center;
+  padding: 40px;
+}
+
+.enroll {
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  border: none;
+  margin-top: 20px;
+}
